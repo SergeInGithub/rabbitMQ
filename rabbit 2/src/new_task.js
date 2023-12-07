@@ -1,6 +1,6 @@
 import amqp from 'amqplib/callback_api.js';
 
-amqp.connect('amqp://localhost:5672', function (error0, connection) {
+amqp.connect('amqp://127.0.0.1:5672', function (error0, connection) {
   if (error0) {
     throw error0;
   }
